@@ -3,8 +3,13 @@ public class Driver{
    /**
    *Examples how to call a method from a different java file:
    */
-   int x = Functions.test(1);//store it
-   System.out.println(Functions.test(2));//print it
+   //store it in a variable
+   int x = Functions.test(1);
+   //print it
+   System.out.println(Functions.test(2));
+   //print it with context!
+   System.out.println("test(test(4)) =" + Functions.test(Functions.test(4)));
+  
   
    /**
    *Example Test Cases:
