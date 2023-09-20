@@ -12,7 +12,7 @@ Your response:
  */
 
  /*STEP 2: Write the test cases first in the driver. Pay attention to how the test function is called.*/
-
+ /*STEP 3: Complete the function makeBricks.*/
  public static boolean makeBricks(int small, int big, int goal){
   return false;//placeholder return value; 
  }
